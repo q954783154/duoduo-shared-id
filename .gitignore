@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+app/dist/
+dist/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.DS_Store
+.wrangler/
+.vite/
+.cache/
+
+# Generated account exports
+*.csv
+shared_ids_output.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
