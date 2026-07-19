@@ -27,3 +27,6 @@ __pycache__/
 .venv/
 venv/
 
+
+.dev.vars*
+!.dev.vars.example
